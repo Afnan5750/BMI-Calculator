@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 600;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+body {
+    background-image: url(/bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.main {
+    width: 440px;
+    height: 58vh;
+    margin: 125px 145px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgb(163 159 149);
+    /* background-color: rgba(0, 0, 0, 0.3); */
+
+}
+
+.main h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: center;
+    margin: 35px;
+}
+
+#height {
+    padding: 6px;
+    margin-left: 10px;
+}
+
+input {
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance:none;
+}
+
+#weight {
+    padding: 6px;
+    margin-left: 10px;
+}
+
+button {
+    padding: 8px 16px;
+    background-color: gray;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 150px;
+    margin-bottom: 30px;
+}
+
+button:hover {
+    background-color: rgb(87, 84, 84);
+}
+
+#result {
+    text-align: center;
+}
